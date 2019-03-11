@@ -41,7 +41,7 @@ public class EventBusActivity extends BaseActivity {
 
     private void registerEvents(){
 
-        compositeDisposable.add(rxBus.tObservable(Fragment1Event.class)
+        compositeDisposable.add(rxBus.toObservable(Fragment1Event.class)
         .observeOn(AndroidSchedulers.mainThread())
         .subscribe(new Consumer<Object>() {
             @Override
@@ -50,7 +50,7 @@ public class EventBusActivity extends BaseActivity {
             }
         }));
 
-        compositeDisposable.add(rxBus.tObservable(Fragment2Event.class)
+        compositeDisposable.add(rxBus.toObservable(Fragment2Event.class)
                 .observeOn(AndroidSchedulers.mainThread())
                 .subscribe(new Consumer<Object>() {
                     @Override
