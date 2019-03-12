@@ -1,1 +1,1 @@
-include ':app', ':publishprocessor', ':rxrelay'
+include ':app', ':publishprocessor', ':rxrelay', ':sticky'

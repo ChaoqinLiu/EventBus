@@ -11,6 +11,7 @@
             <option value="$PROJECT_DIR$/app" />
             <option value="$PROJECT_DIR$/publishprocessor" />
             <option value="$PROJECT_DIR$/rxrelay" />
+            <option value="$PROJECT_DIR$/sticky" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />
